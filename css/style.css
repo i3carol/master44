@@ -1,0 +1,67 @@
+<html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: # #ffd8d8;
+  color:#805841;
+  font-family: "Afacad Flux", sans-serif;
+}
+
+
+h1 {
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 300 to 900
+
+  .a fx-<uniquifier> {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+  }
+}
+
+p{     font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+  .header {
+    background-color: #dcf7f3;
+    text-align: center;
+    padding: 20px;
+  }
+  /* The navbar container */
+  .topnav {
+    overflow: hidden;
+    background-color: #f5a2a2;
+  }
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer {
+  background-color: #dcf7f3;
+  text-align: center;
+  padding: 10px;
+}
+
+
+    
